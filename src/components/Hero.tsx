@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import hero from '@/assets/image.png'
+import hero from '@/assets/image.jpg'
 import { TfiEmail } from 'react-icons/tfi'
 import { BiCalendar, BiLocationPlus, BiPhone } from 'react-icons/bi'
 import { BsGithub, BsInstagram, BsLinkedin, BsTwitterX } from 'react-icons/bs'
@@ -9,7 +9,7 @@ export default function Hero() {
       <Image
         src={hero}
         alt='MD Suweb Reza'
-        className='w-40 h-44 rounded-lg mx-auto mb-6'
+        className='w-fit h-fit rounded-lg mx-auto mb-6 '
       />
       <h1 className='text-xl font-bold mb-4'>MD Suweb Reza</h1>
       <p className='text-sm px-3 py-1 mb-6 bg-slate-600 rounded-lg w-fit flex text-center justify-center'>
