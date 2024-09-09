@@ -29,7 +29,7 @@ export default function Header({
             <a
               href='#projects'
               className='hover:text-gray-400'
-              onClick={() => setMenu(1)}
+              onClick={() => setMenu(2)}
             >
               Projects
             </a>
@@ -38,7 +38,7 @@ export default function Header({
             <a
               href='#contact'
               className='hover:text-gray-400'
-              onClick={() => setMenu(2)}
+              onClick={() => setMenu(3)}
             >
               Contact
             </a>

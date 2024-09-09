@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 // import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects'
+import ResumePage from '@/components/Resume'
 import Head from 'next/head'
 import { useState } from 'react'
 
@@ -17,8 +18,10 @@ export default function Home() {
       case 0:
         return <About />
       case 1:
-        return <Projects />
+        return <ResumePage />
       case 2:
+        return <Projects />
+      case 3:
         return <Contact />
       default:
         return <About /> // Default case
