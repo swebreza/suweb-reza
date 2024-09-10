@@ -18,7 +18,7 @@ export default function Header({
           </li>
           <li>
             <a
-              href='#projects'
+              href='#resume'
               className='hover:text-gray-400'
               onClick={() => setMenu(1)}
             >
