@@ -1,8 +1,12 @@
 'use client'
 
-import { BiGame } from 'react-icons/bi'
+// import { BiGame } from 'react-icons/bi'
 import { FaFigma } from 'react-icons/fa'
-import { MdDeveloperBoard, MdDeveloperMode } from 'react-icons/md'
+import {
+  MdDeveloperBoard,
+  MdDeveloperMode,
+  MdLeaderboard,
+} from 'react-icons/md'
 export default function About() {
   return (
     <section id='about' className='p-10 bg-black rounded-2xl w-full'>
@@ -105,14 +109,17 @@ export default function About() {
                 // width={64}
                 // height={64}
               /> */}
-              <BiGame className='text-4xl text-white ' />
+              <MdLeaderboard className='text-4xl text-white ' />
             </div>
 
             {/* Content Section */}
             <div className='ml-4'>
-              <h3 className='text-xl font-semibold text-white'>Gaming</h3>
+              <h3 className='text-xl font-semibold text-white'>
+                Tech Leadership
+              </h3>
               <p className='font-extralight mt-1'>
-                Played games like PUBG, God of war, and Call of Duty.
+                Led development teams on complex projects, ensuring
+                collaboration, code quality, and scalable solutions.
               </p>
             </div>
           </div>
