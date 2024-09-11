@@ -16,9 +16,7 @@ export default function About() {
       </span>
       <p className='text-sm font-thin w-full text-gray-300'>
         <br />
-        I’m MD Suweb Reza, a Software Developer specializing in innovative
-        solutions.
-        <br />
+        
         <br />
         
 
