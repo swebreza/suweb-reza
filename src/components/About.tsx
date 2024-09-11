@@ -17,8 +17,7 @@ export default function About() {
       <p className='text-sm font-thin w-full text-gray-300'>
         <br />
         
-        <br />
-        
+       
 
 Experienced technology leader with a B.E. in Computer Science from Acharya Institute of Technology. Led a team and developed technologies at JoboxHire Pvt. Ltd. using the T3 Stack, including TypeScript, SQL, React.js, and Tailwind CSS. Previously improved system efficiency at Japan Grab Technology and mentored junior developers. Passionate about solving complex problems and enhancing user experiences.
       </p>
