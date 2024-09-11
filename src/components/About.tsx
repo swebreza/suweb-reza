@@ -20,12 +20,9 @@ export default function About() {
         solutions.
         <br />
         <br />
-        At JoboxHire Pvt. Ltd., I led a team and developed technologies with the
-        T3 Stack. I have a B.E. in Computer Science from Acharya Institute of
-        Technology and experience with TypeScript, SQL, React.js, and Tailwind
-        CSS. Previously, I improved system efficiency at Japan Grab Technology
-        and mentored junior developers. I’m passionate about problem-solving and
-        enhancing user experiences.
+        
+
+Experienced technology leader with a B.E. in Computer Science from Acharya Institute of Technology. Led a team and developed technologies at JoboxHire Pvt. Ltd. using the T3 Stack, including TypeScript, SQL, React.js, and Tailwind CSS. Previously improved system efficiency at Japan Grab Technology and mentored junior developers. Passionate about solving complex problems and enhancing user experiences.
       </p>
       <br />
       <div>
