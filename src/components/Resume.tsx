@@ -62,13 +62,13 @@ export default function Component() {
             {[
               {
                 title: 'Bachelor Of Computer Science and Engineering',
-                date: '2019 — 2013',
+                date: '2019 — 2023',
                 institution:
                   'Acharya Institute of Technology, Visvesvaraya Technological University.',
               },
               {
                 title: 'Diploma Of Computer Science and Engineering',
-                date: '2020 — 2023',
+                date: '2016 — 2019',
                 institution:
                   'Acharya Polytechnic, Department of Technical Education.',
               },
