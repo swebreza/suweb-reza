@@ -34,7 +34,7 @@ const projects: Project[] = [
     description:
       'A platform for hiring and job search with a dashboard for employers and job seekers and Key admin features built with T3 Stack',
     imageUrl: Portfolio,
-    link: 'https://main--cheery-scone-e484f6.netlify.app/',
+    link: 'https://joboxhire.com/',
   },
   {
     id: 3,
