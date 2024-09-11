@@ -26,7 +26,7 @@ export default function Hero() {
             <li className='bg-slate-900 p-3 rounded-xl'>
               <TfiEmail className='text-white' />
             </li>
-            <li className='text-sm truncate hover:overflow-visible w-40 relative '>
+            <li className='text-sm truncate hover:overflow-visible   w-40 relative '>
               <span className='font-extralight text-gray-700'>Email</span>
               <br />
               <span>swebreza@gmail.com</span>
