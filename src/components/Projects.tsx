@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: 'Vidintelify',
     description: 'Video generator web application that generates 15s videos with simple prompt. (This project is under development)',
     imageUrl: TravelApp,
-    link: 'https://distracted-euler-c04064.netlify.app/',
+    link: 'https://vidintelify.vercel.app/',
   },
 
   {
