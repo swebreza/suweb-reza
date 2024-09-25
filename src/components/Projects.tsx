@@ -38,8 +38,8 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Travel App',
-    description: 'Travel app to find the best places to visit',
+    title: 'Vidintelify',
+    description: 'Video generator web application that generates 15s videos with simple prompt. (This project is under development)',
     imageUrl: TravelApp,
     link: 'https://distracted-euler-c04064.netlify.app/',
   },
