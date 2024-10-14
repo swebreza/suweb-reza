@@ -29,7 +29,7 @@ export default function ContactPage() {
                <div className='flex items-center space-x-4'>
                 <MapPin className='text-muted-foreground ' color='white' />
                 <span> Bangalore - 560030</span>
-              </div>*
+              </div>
               <div className='flex items-center space-x-4'>
                 <Phone className='text-muted-foreground' />
                 <span>+91 9538774092</span>
@@ -71,17 +71,7 @@ export default function ContactPage() {
             </CardContent>
           </Card>
         </div>
-        <Card className='h-fit'>
-          <CardHeader>
-            <CardTitle className=' text-white'>Location</CardTitle>
-            <CardDescription className=' text-white'>
-              Find me on the map
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-          
-          </CardContent>
-        </Card>
+       
       </div>
     </div>
   )
