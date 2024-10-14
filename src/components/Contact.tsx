@@ -80,7 +80,7 @@ export default function ContactPage() {
           </CardHeader>
           <CardContent>
             <div className=' bg-muted flex items-center justify-center'>
-              {/* <MapPin className='text-muted-foreground' /> */}
+              {/* <MapPin className='text-muted-foreground' /> 
               <iframe
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d972.1121043563569!2d77.59851466962257!3d12.94313300624192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15b7b364e129%3A0x45add615f7cd8e71!2sFamily%20Supermarket!5e0!3m2!1sen!2sin!4v1726043035875!5m2!1sen!2sin'
                 width='900'
@@ -89,7 +89,7 @@ export default function ContactPage() {
                 allowFullScreen={true}
                 loading='lazy'
                 referrerPolicy='no-referrer-when-downgrade'
-              ></iframe>
+              ></iframe>*/}
             </div>
           </CardContent>
         </Card>
