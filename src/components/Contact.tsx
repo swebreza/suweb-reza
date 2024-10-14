@@ -26,10 +26,10 @@ export default function ContactPage() {
               </CardDescription>
             </CardHeader>
             <CardContent className='space-y-4'>
-              <div className='flex items-center space-x-4'>
+             {/*  <div className='flex items-center space-x-4'>
                 <MapPin className='text-muted-foreground ' color='white' />
                 <span>15th cross, Lakkasandra, Bangalore - 560030</span>
-              </div>
+              </div>*/}
               <div className='flex items-center space-x-4'>
                 <Phone className='text-muted-foreground' />
                 <span>+91 9538774092</span>
