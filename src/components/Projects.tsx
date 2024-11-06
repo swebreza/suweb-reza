@@ -7,8 +7,8 @@ import {
 import Image, { StaticImageData } from 'next/image'
 import Nikkari from '@/assets/nikkari.png'
 import Portfolio from '@/assets/image.png'
-import TravelApp from '@/assets/travel.png'
-import Mayamaa from '@/assets/mayama.png'
+import TravelApp from '@/assets/makaao.png'
+import Mayamaa from '@/assets/mayamaa.png'
 // Define the structure of a project
 interface Project {
   id: number
@@ -22,15 +22,15 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Nikkari',
+    title: 'Ecommerce App',
     description:
-      'Nikkari developed brush cutters to reduce mowing work under the hot sun, and mono-rack to ease heavy items carrying in steep field.',
-    imageUrl: Nikkari,
-    link: 'https://nikkari.vercel.app/',
+      'Mayamaa.com is an e-commerce platform that brings a rich variety of authentic, high-quality products to consumers, with a focus on traditional and handmade goods.',
+    imageUrl: Mayamaa,
+    link: 'https://www.figma.com/design/N1UpwNFHtW1cbSY3KsNyW2/E-Commerce-App-Design-(Community)?node-id=0-1&node-type=canvas&t=JndtatimIX6HCnBq-0',
   },
   {
     id: 2,
-    title: 'Joboxhire Hiring Platform',
+    title: 'Joboxhire Hiring Web/App',
     description:
       'A platform for hiring and job search with a dashboard for employers and job seekers and Key admin features built with T3 Stack',
     imageUrl: Portfolio,
@@ -38,10 +38,11 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Vidintelify',
-    description: 'Video generator web application that generates 15s videos with simple prompt. (This project is under development)',
+    title: 'Makaao Video Generator',
+    description:
+      'Video generator web application that generates 15s videos with simple prompt. (This project is under development)',
     imageUrl: TravelApp,
-    link: 'https://vidintelify.vercel.app/',
+    link: 'https://makaao.com/',
   },
 
   {
@@ -64,11 +65,11 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    title: 'Ecommerce',
+    title: 'Nikkari',
     description:
-      'Mayamaa.com is an e-commerce platform that brings a rich variety of authentic, high-quality products to consumers, with a focus on traditional and handmade goods.',
-    imageUrl:Mayamaa,
-    link: 'https://www.figma.com/design/N1UpwNFHtW1cbSY3KsNyW2/E-Commerce-App-Design-(Community)?node-id=0-1&node-type=canvas&t=JndtatimIX6HCnBq-0',
+      'Nikkari developed brush cutters to reduce mowing work under the hot sun, and mono-rack to ease heavy items carrying in steep field.',
+    imageUrl: Nikkari,
+    link: 'https://nikkari.vercel.app/',
   },
 ]
 
