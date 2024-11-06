@@ -8,7 +8,7 @@ import Image, { StaticImageData } from 'next/image'
 import Nikkari from '@/assets/nikkari.png'
 import Portfolio from '@/assets/image.png'
 import TravelApp from '@/assets/travel.png'
-import Mayamaa from '@/assets/mayamaa.png'
+import Mayamaa from '@/assets/mayama.png'
 // Define the structure of a project
 interface Project {
   id: number
