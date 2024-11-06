@@ -8,7 +8,7 @@ import Image, { StaticImageData } from 'next/image'
 import Nikkari from '@/assets/nikkari.png'
 import Portfolio from '@/assets/image.png'
 import TravelApp from '@/assets/travel.png'
-
+import Mayamaa from '@/assets/mayamaa.png'
 // Define the structure of a project
 interface Project {
   id: number
@@ -64,12 +64,11 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    title: 'user-json-list',
+    title: 'Ecommerce',
     description:
-      'This is a npm package that contains 1000 randomly generated user details that can be used by Developer for testing their app locally',
-    imageUrl:
-      'https://main--cheery-scone-e484f6.netlify.app/static/media/NPM%20package.e45c65f0991172f31d25.png',
-    link: 'https://github.com/swebreza/user-list-json',
+      'Mayamaa.com is an e-commerce platform that brings a rich variety of authentic, high-quality products to consumers, with a focus on traditional and handmade goods.',
+    imageUrl:Mayamaa,
+    link: 'https://www.figma.com/design/N1UpwNFHtW1cbSY3KsNyW2/E-Commerce-App-Design-(Community)?node-id=0-1&node-type=canvas&t=JndtatimIX6HCnBq-0',
   },
 ]
 
